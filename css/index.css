@@ -1,0 +1,43 @@
+.botonSaludador{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.botonSaludador:hover{
+    background-color: #45a049;
+}
+.botonSaludador:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.botonSaludador:focus{
+    outline: none;
+}
+.textoSaludador{
+    font-size: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+.textoSaludador:hover{
+    color: #555;
+}
+
+.contenedor{
+    font-size: 18px;
+    background-color: #ddcdcd;
+    color: cadetblue;
+    font-family: system-ui;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
